@@ -6,5 +6,11 @@ pipeline{
         echo 'welcome'
         }
        }
+        stage('test'){
+            steps {
+                echo 'tesing is sucessfull'
+            
+        }
+        
         }
 }
