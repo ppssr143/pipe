@@ -1,8 +1,21 @@
 pipeline {
-agent any
-Stages {
-stage ('one') {
-git 'https://github.com/ppssr143/pipe.git'
-}
-}
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
