@@ -5,5 +5,5 @@ pipeline{
         echo 'welcome'
         }
     
-    
+    }
 }
