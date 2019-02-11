@@ -8,6 +8,7 @@ pipeline{
        }
         stage('test'){
             steps {
+                mkdir raja
                 echo 'tesing is sucessfull'
             }
         }
