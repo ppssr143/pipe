@@ -1,9 +1,8 @@
 pipeline {
 agent any
 stages {
-stage ('build') {
+stage ('one') {
 echo 'welcome'
 }
-
 }
 }
