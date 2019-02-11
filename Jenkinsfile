@@ -2,7 +2,7 @@ pipeline {
 agent any
 stages {
 stage ('one') {
-echo 'welcome1'
+git 'https://github.com/ppssr143/pipe.git'
 }
 }
 }
