@@ -1,6 +1,6 @@
 pipeline {
 agent any
-stages {
+Stages {
 stage ('one') {
 git 'https://github.com/ppssr143/pipe.git'
 }
