@@ -7,11 +7,11 @@ pipeline{
 					                }
 				              }
 			stage('two'){
-					      steps('two'){
+					      
 						                steps{
 							                echo 'welcome'
 							                  }
-							              }
+							             
                     }
 			     }					
        }
